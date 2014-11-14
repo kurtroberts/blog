@@ -1,0 +1,30 @@
+#postList {
+	a:hover {
+		text-decoration: none;
+		
+	}
+}
+.post-banner {
+	width: 100%;
+	min-height: 200px;
+	h1 {
+		color: white;
+		margin-bottom: 0;
+	}
+}
+
+.row0 {
+	background: $color1;
+}
+.row1 {
+	background: $color2;
+}
+.row2 {
+	background: $color3;
+}
+.row3 {
+	background: $color4;
+}
+.row4 {
+	background: $color5;
+}
