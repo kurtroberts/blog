@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "authors": [
+    "Kurt Roberts <kroberts@rp3agency.com>"
+  ],
+  "description": "my blog",
+  "main": "public/index.ejs",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "RRSSB": "~1.6.5"
+  }
+}
