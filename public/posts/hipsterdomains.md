@@ -6,7 +6,9 @@ Over the past few years, there's a surprising amount of controversy out there re
 
 However, as Hover's announcement above shows, the scene is set and these domains are here to stay.  So what to do with them?
 
-We wondered how these domains held up from a consumer-behavoir standpoint, so we decided to ask Omar, our Director of Strategic Planning.  We were in luck - he had direct experience with this problem.  "When I worked on [a large software company] in the past, our research found people don't care as much about the .com, and that it didn't really affect findability.  Most people would google the name and then click on a link.  After that the browser autocomplete takes over, so when they would go back, they'd type 3 or 4 letters and choose the right link from the autocomplete drop down.  Consumers rarely have to remember a full URL."
+We wondered how these domains held up from a consumer-behavoir standpoint, so we decided to ask Omar, our Director of Strategic Planning.  We were in luck - he had direct experience with this problem.  
+
+> "When I worked on [a large software company] in the past, our research found people don't care as much about the .com, and that it didn't really affect findability.  Most people would google the name and then click on a link.  After that the browser autocomplete takes over, so when they would go back, they'd type 3 or 4 letters and choose the right link from the autocomplete drop down.  Consumers rarely have to remember a full URL." - Omar Quinones
 
 During our discussion, Omar tested this on himself by accident.  We wandered off on a tangent about the creation of unique product names (specifically we were talking about [Soylent](http://soylent.me/)), and ended up at http://soylent.me/.  Omar realized that all he did was type "soy" into his address bar - he'd been there before, and arrived on the page without even thinking about it.
 

@@ -1,9 +1,13 @@
 @import "reset";
 
 //palette
-$links : rgb(231, 60, 48);
+//$links : rgb(231, 60, 48);
 
-$color1 : #00E078;
+$links : #02BEDF;
+
+//$color1 : #00E078;
+
+$color1 : #6FFF00;
 $color2 : #FF7800;
 $color3 : #579DF5;
 $color4 : #02BEDF;
@@ -20,14 +24,24 @@ body{
 	
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
 	width: 95%;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
 
-
+blockquote {
+	width: 100%;
+	padding: 20px 10%;
+	background: $color3;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.7em;
+	p {
+		margin-bottom: 0;
+	}
+}
 
 
 
@@ -43,6 +57,7 @@ header {
 }
 #homeicon {
 	width: 50px;
+	margin-left: 20px;
 }
 
 
@@ -50,7 +65,7 @@ header {
 
 footer {
 	background: #111;
-	color: #fff;
+	color: $links;
 	border-top: 1px solid #aaa;
 	padding-top: 30px;
 	
