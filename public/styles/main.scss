@@ -1,5 +1,7 @@
 @import "reset";
 
+@import "util";
+
 //palette
 //$links : rgb(231, 60, 48);
 
@@ -52,38 +54,7 @@ blockquote {
 
 @import "articlelist";
 
+@import "running";
 
-header {
-	background: #111;
-	margin-bottom: 20px;
-	height: 50px;
-	line-height: 50px;
-	font-family: 'Roboto Condensed';
-	
-}
-
-header > * {
-	float: left;
-	display: block;
-	margin-right: 2em;
-}
-#homeicon {
-	width: 50px;
-	margin: -1px 20px 0;
-	float: left;
-}
-
-
-
-
-footer {
-	background: #111;
-	color: $links;
-	border-top: 1px solid #aaa;
-	height: 50px;	
-	line-height: 49px;
-	font-family: 'Roboto Condensed';
-	padding-left: 20px;
-}
 
 @import "../external/RRSSB/scss/rrssb.scss";

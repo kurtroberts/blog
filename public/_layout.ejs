@@ -9,14 +9,15 @@
 </head>
 <body>
 	<header>
+		<a href="#footer"><img src="/images/menu.svg" id="menuicon" /> </a>
 		<a href="/"><img src="/images/home.svg" id="homeicon" /> kurtroberts.net</a>
-		<a href="/posts/index.html">blog</a>
-		<a href="/work/index.html">work</a>
-		<a href="/contact.html">contact</a>
+		<%- partial("partials/_menuitems") %>
 	</header>
 	<%- yield %>
+	<a name="footer"></a>
 	<footer>
-		&copy; <a href="/">kurtroberts.net</a>
+		<a href="/">&copy; kurtroberts.net</a>
+		<%- partial("partials/_menuitems") %>
 	</footer>
 	<script src="js/rrssb.min.js"></script>
 </body>

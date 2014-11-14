@@ -1,0 +1,13 @@
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin breakpoint($point) {
+	@if $point == wide {
+		@media (min-width: 600px) { @content ; }
+	}
+}

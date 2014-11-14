@@ -1,0 +1,58 @@
+header {
+	background: #111;
+	margin-bottom: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-family: 'Roboto Condensed';
+	
+	#homeicon {
+		width: 50px;
+		margin: -1px 20px 0;
+		float: left;
+	}
+	#menuicon {
+		margin-top: 9px;
+		margin-right: 20px;
+		float: right;
+		@include breakpoint(wide) {
+			display: none;
+		}
+	}
+    .menu {
+   	display: none;
+   	@include breakpoint(wide) {
+   		display: block;
+   	}
+   }
+}
+
+footer > * {
+	display: block;
+	min-height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid $links;
+	
+}
+
+
+@include breakpoint (wide) {
+	header > *, footer > * {
+		float: left;
+		display: block;
+		margin-right: 2em;
+		border-bottom: none;
+	}	
+}
+
+
+
+footer {
+	background: #111;
+	color: $links;
+	border-top: 1px solid #aaa;
+	min-height: 50px;	
+	line-height: 49px;
+	font-family: 'Roboto Condensed';
+	padding-left: 20px;
+	@extend %clearfix;
+}
