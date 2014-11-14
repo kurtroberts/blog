@@ -4,16 +4,20 @@
 	<title>kurtroberts.net</title>
 	<link type="text/css" rel="stylesheet" href="/styles/main.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,700|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
-	<script src="/js/jquery.js">
-	</script><script src="/js/app.js"></script>
+	<script src="/external/jquery/dist/jquery.js"></script>
+	<script src="/external/modernizer/modernizr.js"></script>
 </head>
 <body>
 	<header>
-		<a href="/"><img src="/images/home.svg" id="homeicon" /></a>
+		<a href="/"><img src="/images/home.svg" id="homeicon" /> kurtroberts.net</a>
+		<a href="/posts/index.html">blog</a>
+		<a href="/work/index.html">work</a>
+		<a href="/contact.html">contact</a>
 	</header>
 	<%- yield %>
 	<footer>
-		<p>&copy; <a href="/">kurtroberts.net</a></p>
+		&copy; <a href="/">kurtroberts.net</a>
 	</footer>
+	<script src="js/rrssb.min.js"></script>
 </body>
 </html>

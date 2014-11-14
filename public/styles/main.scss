@@ -29,7 +29,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
 	max-width: 800px;
 	margin: 0 auto;
 }
-
+.embedwrapper {
+	margin: 0 auto 25px;
+	max-width: 800px;
+}
 
 blockquote {
 	width: 100%;
@@ -53,11 +56,21 @@ blockquote {
 header {
 	background: #111;
 	margin-bottom: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-family: 'Roboto Condensed';
 	
+}
+
+header > * {
+	float: left;
+	display: block;
+	margin-right: 2em;
 }
 #homeicon {
 	width: 50px;
-	margin-left: 20px;
+	margin: -1px 20px 0;
+	float: left;
 }
 
 
@@ -67,6 +80,10 @@ footer {
 	background: #111;
 	color: $links;
 	border-top: 1px solid #aaa;
-	padding-top: 30px;
-	
+	height: 50px;	
+	line-height: 49px;
+	font-family: 'Roboto Condensed';
+	padding-left: 20px;
 }
+
+@import "../external/RRSSB/scss/rrssb.scss";

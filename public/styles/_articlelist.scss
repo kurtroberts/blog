@@ -7,11 +7,25 @@
 .post-banner {
 	width: 100%;
 	min-height: 200px;
-	h1 {
+	padding-top: 100px;
+	h1, p {
 		color: white;
 		margin-bottom: 0;
 	}
 }
+
+@media (min-width: 600px) {
+
+	.post-banner h1::after {
+		content: "»";
+		position: absolute;
+		color: white;
+		left: 75%;
+		font-size: 50px;
+	}
+	
+}
+
 
 .row0 {
 	background: $color1;
