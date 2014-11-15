@@ -57,9 +57,17 @@ blockquote {
 @import "running";
 
 
-//libraries && mods to them
+/**********
+*
+* libraries && mods to them
+*
+*/
+
+
+//social icons for contact
 @import "icons";
 
+//sharing buttons
 @import "../external/RRSSB/scss/rrssb.scss";
 .rrssb-buttons {
 	max-width: 100%;
