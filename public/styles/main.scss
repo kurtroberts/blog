@@ -22,7 +22,7 @@ body{
 	background: #fff;
 	color: #111;
 	margin: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', 'Helvetica', sans-serif;
 	
 }
 
@@ -57,4 +57,12 @@ blockquote {
 @import "running";
 
 
+//libraries && mods to them
+@import "icons";
+
 @import "../external/RRSSB/scss/rrssb.scss";
+.rrssb-buttons {
+	max-width: 100%;
+}
+
+

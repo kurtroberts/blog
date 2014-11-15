@@ -3,7 +3,7 @@ header {
 	margin-bottom: 20px;
 	height: 50px;
 	line-height: 50px;
-	font-family: 'Roboto Condensed';
+	font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
 	
 	#homeicon {
 		width: 50px;
@@ -52,7 +52,7 @@ footer {
 	border-top: 1px solid #aaa;
 	min-height: 50px;	
 	line-height: 49px;
-	font-family: 'Roboto Condensed';
+	font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
 	padding-left: 20px;
 	@extend %clearfix;
 }

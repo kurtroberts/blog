@@ -13,12 +13,16 @@
 		<a href="/"><img src="/images/home.svg" id="homeicon" /> kurtroberts.net</a>
 		<%- partial("partials/_menuitems") %>
 	</header>
-	<%- yield %>
+	<% if(current.path[0] == "posts" && current.source !== 'index') { %>
+		<%- partial(current.path[0] + "/_nest") %>
+	<% } else { %>
+		<%- yield %>
+	<% } %>	
 	<a name="footer"></a>
 	<footer>
 		<a href="/">&copy; kurtroberts.net</a>
 		<%- partial("partials/_menuitems") %>
 	</footer>
-	<script src="js/rrssb.min.js"></script>
+	<script src="/external/RRSSB/js/rrssb.min.js"></script>
 </body>
 </html>
